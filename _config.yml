@@ -1,0 +1,16 @@
+name: arhamahmed.github.io
+url: https://arhamahmed.github.io
+
+author:
+  name: Arham Ahmed
+  email: mohammad.a.ahmed@uwaterloo.ca
+
+social:
+  name: Arham Ahmed
+  links:
+    - https://github.com/arhamahmed
+    - https://www.linkedin.com/in/arhamahmed
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
