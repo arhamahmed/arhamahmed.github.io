@@ -1,20 +1,33 @@
----
-layout: default
----
-
-<header>
-  <h1><b>Arham Ahmed<b></h1>
-  <p>SWE II @ Microsoft, MCS <a href="https://siebelschool.illinois.edu/academics/graduate/professional-mcs">@UIUC</a> 2023, BASc <a href="https://ugradcalendar.uwaterloo.ca/page/ENG-Computer-Engineering-Electrical-Engineering">@uWaterloo</a> 2019</p>
-  <ul>
-    <li class="github"><a href="https://github.com/arhamahmed"><i class="fa fa-github fa-2x"></i></a></li>
-    <li class="linkedin"><a href="http://linkedin.com/in/arhamahmed"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-    <li class="mail"><a href="mailto:mohammad.a.ahmed@uwaterloo.ca"><i class="fa fa-envelope fa-2x"></i></a></li>
-    <li class="resume"><a href="Arham_Ahmed_Resume.pdf"><i class="fa fa-file-pdf-o fa-2x"></i></a></li>
-  </ul>
-</header>
-
-
-<section class="container">
-  <ul class="posts">
-  </ul>
-</section>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // apply a saved theme before first paint so the page doesn't flash
+      try {
+        var t = localStorage.getItem('theme')
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
+    <title>Arham Ahmed</title>
+    <meta name="description" content="Arham Ahmed — Senior Software Engineer at LinkedIn. Previously Microsoft, Amazon, Google, Shopify." />
+    <meta property="og:title" content="Arham Ahmed" />
+    <meta property="og:description" content="Senior Software Engineer at LinkedIn. Previously Microsoft, Amazon, Google, Shopify." />
+    <meta property="og:url" content="https://arhamahmed.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://arhamahmed.github.io/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/avatar.jpg" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
