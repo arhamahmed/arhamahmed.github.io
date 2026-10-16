@@ -37,25 +37,25 @@ export const config = {
   // for the local time and weather beside the location
   timezone: 'America/Los_Angeles',
   coords: [37.37, -122.04] as [number, number],
-  // TODO confirm the exact wording of his graduation quote with Arham
-  quote: 'I’m going to finish what Einstein started.',
+  // Placeholder until Arham chooses a quote
+  quote: 'todo',
   updated: 'October 2026',
   links: {
     github: 'https://github.com/arhamahmed',
     linkedin: 'https://www.linkedin.com/in/arhamahmed',
-    email: 'mailto:a.arhamit@gmail.com',
+    email: 'mailto:arham.b.ahmed@gmail.com',
     resume: '/Arham_Ahmed_Resume.pdf',
   },
   // newest first; `city` places the stop on the route map
   experience: [
-    { company: 'LinkedIn', domain: 'linkedin.com', role: 'Senior Software Engineer', start: '2025', end: 'Present', city: 'Sunnyvale', airport: 'SJC', summary: 'What did I do here?' },
-    { company: 'Microsoft', domain: 'microsoft.com', role: 'Software Engineer II', start: '2019', end: '2025', city: 'Redmond', airport: 'SEA', summary: 'What did I do here?' },
-    { company: 'Amazon', domain: 'amazon.com', role: 'Software Engineering Intern', start: '2018', end: '2018', city: 'Seattle', airport: 'SEA', summary: 'What did I do here?' }, // TODO confirm office with Arham
-    { company: 'Microsoft', domain: 'microsoft.com', role: 'Software Engineering Intern', start: '2018', end: '2018', city: 'Redmond', airport: 'SEA', summary: 'What did I do here?' },
-    { company: 'Google', domain: 'google.com', role: 'Software Engineering Intern', start: '2017', end: '2017', city: 'Kirkland', airport: 'SEA', summary: 'What did I do here?' },
-    { company: 'Shopify', domain: 'shopify.com', role: 'Production Engineering Intern', start: '2016', end: '2016', city: 'Ottawa', airport: 'YOW', summary: 'What did I do here?' },
-    { company: 'Innovasium Digital', domain: 'innovasium.com', role: 'Software Engineering Intern', start: '2016', end: '2016', city: 'Markham', airport: 'YYZ', summary: 'What did I do here?' },
-    { company: 'Symcor', domain: 'symcor.com', role: 'Software Engineering Intern', start: '2015', end: '2015', city: 'Mississauga', airport: 'YYZ', summary: 'What did I do here?' },
+    { company: 'LinkedIn', domain: 'linkedin.com', role: 'Senior Software Engineer', start: 'Jan 2025', end: 'Present', city: 'Mountain View', airport: 'SJC', summary: "Built LinkedIn's AI-powered migration framework, hitting 98% reliability and enabling the platform to scale into billions of members." },
+    { company: 'Microsoft', domain: 'microsoft.com', role: 'Software Engineer II', start: '2019', end: 'Jan 2025', city: 'Redmond', airport: 'SEA', summary: "Built Kubernetes infrastructure and release tooling for Azure IoT Operations, including observability and autoscaling." },
+    { company: 'Amazon', domain: 'amazon.com', role: 'Software Engineering Intern', start: '2018', end: '2018', city: 'Palo Alto', airport: 'SJC', summary: "Built video-ad allocation algorithms that delivered near-optimal results with an 8x speedup." },
+    { company: 'Microsoft', domain: 'microsoft.com', role: 'Software Engineering Intern', start: '2018', end: '2018', city: 'Redmond', airport: 'SEA', summary: "Built sharding and async I/O improvements for Azure Stream Analytics, increasing Blob Storage write throughput by 13%." },
+    { company: 'Google', domain: 'google.com', role: 'Software Engineering Intern', start: '2017', end: '2017', city: 'Kirkland', airport: 'SEA', summary: "Built a private library-hosting service on Google Cloud with 99.95% uptime and deployment tooling." },
+    { company: 'Shopify', domain: 'shopify.com', role: 'Production Engineering Intern', start: '2016', end: '2016', city: 'Ottawa', airport: 'YOW', summary: "Built caching and shared-storage infrastructure to speed up mobile builds." },
+    { company: 'Innovasium Digital', domain: 'innovasium.com', role: 'Software Engineering Intern', start: '2016', end: '2016', city: 'Markham', airport: 'YYZ', summary: "Built React management tools and authenticated Rails APIs, with deployments on Heroku and AWS." },
+    { company: 'Symcor', domain: 'symcor.com', role: 'Software Engineering Intern', start: '2015', end: '2015', city: 'Mississauga', airport: 'YYZ', summary: "Built reporting visualizations, ETL workflows and a responsive site for an internal hackathon." },
   ] satisfies ExperienceEntry[],
   projects: [
     { title: 'google-cloud-gemserver', description: 'Private Ruby gem server on Google Cloud, built at Google', href: 'https://github.com/GoogleCloudPlatform/google-cloud-gemserver', year: '2017', pinned: true },
@@ -67,7 +67,7 @@ export const config = {
   ] satisfies Project[],
   writing: [
     { title: 'Rolling your own private Ruby gem server on Google Cloud Platform', venue: 'Google Cloud Blog', domain: 'cloud.google.com', year: '2017', href: 'https://cloud.google.com/blog/products/gcp/rolling-your-own-private-ruby-gem-server-on-google-cloud-platform' },
-    { title: 'Building a Dynamic Mobile CI System', venue: 'Shopify Engineering', domain: 'shopify.engineering', year: '2016', href: 'https://shopify.engineering/building-a-dynamic-mobile-ci-system' },
+    { title: 'Building a Dynamic Mobile CI System', venue: 'Shopify Engineering', domain: 'shopify.engineering', year: '2017', href: 'https://shopify.engineering/building-a-dynamic-mobile-ci-system' },
   ] satisfies Post[],
   // newest first
   education: [
